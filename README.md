@@ -32,7 +32,7 @@ npm install
 npm start
 ```
  
-App runs at: **[http://localhost:5000](http://localhost:5000)**
+App runs at: **[http://localhost:5000](http://localhost:8000)**
  
 ---
  
@@ -46,7 +46,7 @@ docker build -t devops-node-app .
 docker run -p 8000:8000 devops-node-app
 ```
  
-Access at: **[http://localhost:5000](http://localhost:5000)**
+Access at: **[http://localhost:5000](http://localhost:8000)**
  
 ---
  
@@ -55,7 +55,7 @@ Access at: **[http://localhost:5000](http://localhost:5000)**
 When running successfully, terminal will show:
  
 ```
-Server running at http://localhost:5000
+Server running at http://localhost:8000
 ```
  
 And browser/curl will return:
